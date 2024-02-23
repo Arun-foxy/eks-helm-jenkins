@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        registry = "211223789150.dkr.ecr.us-east-1.amazonaws.com/my-docker-repo"
+        registry = "054833393038.dkr.ecr.ap-south-1.amazonaws.com/docker-image-repo"
     }
     stages {
         stage('Checkout') {
